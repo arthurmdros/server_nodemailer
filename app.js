@@ -6,11 +6,11 @@ var port = process.env.PORT || 3002;
 
 var auth = {
     type: 'oauth2',
-    user: 'arthurmedeiros2005@gmail.com',
-    clientId: '995217205047-kjblmkhvq3lvob9ng50nubiseu2qplh9.apps.googleusercontent.com',
-    clientSecret: 'PEYQp-mWfxk2QJR6tGANm9Hq',
-    refreshToken: '1//0fYwPumgbdK9XCgYIARAAGA8SNwF-L9IrmNBDJRegTuQxp6U6skXhsdOdZDUW7phfVAHiQavbJAG6aXEHudH6zBTUScWiq42tQqs',
-    accessToken : 'ya29.a0AfH6SMAQ5AC8VS18fTBigwAEhS7TVYn0EjijeVBn_-91QPwRykVQjYgXxn6gEqAEoa_pdrBFDFmba6XDedKzXk4mSY9s_dFxJK36q37Q1z6-j0caPkvcEou0aCl4P5zAYrOx_Qgr3Ce1wCV7U3wGdNykzzvu6mWUCw0'
+    user: 'YOUR_GMAIL_ADDRESS',
+    clientId: 'YOUR_CLIENT_ID',
+    clientSecret: 'YOUR_CLIENT_SECRET',
+    refreshToken: 'YOUR_REFRESH_TOKEN',    
+    accessToken : 'YOUR_ACCESS_TOKEN'
 };
 
 app.use(express.json());
